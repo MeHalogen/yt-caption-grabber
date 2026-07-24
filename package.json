@@ -1,0 +1,42 @@
+{
+  "name": "yt-caption-grabber",
+  "version": "1.0.0",
+  "description": "Extract YouTube video transcripts directly via web player endpoints without API keys.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "keywords": [
+    "utility",
+    "yt-caption-grabber",
+    "youtube",
+    "transcription",
+    "captions",
+    "grabber",
+    "scraper"
+  ],
+  "author": "Antigravity Factory Manager",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.8.0",
+    "vitest": "^3.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MeHalogen/yt-caption-grabber.git"
+  },
+  "homepage": "https://github.com/MeHalogen/yt-caption-grabber#readme"
+}
